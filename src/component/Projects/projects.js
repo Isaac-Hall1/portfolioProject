@@ -7,7 +7,7 @@ const Projects = () => {
       <button className="button">
         <img src="path/to/project1.jpg" alt="Project 1" />
         <div className="button-text">
-          <h3>Project 1</h3>
+          <h3>Test</h3>
           <p>Summary of project 1.</p>
         </div>
       </button>
