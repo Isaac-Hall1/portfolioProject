@@ -12,14 +12,13 @@
   align-items: center; /* Center the content vertically */
   color: white; /* Text color */
   padding: 2%; /* Padding inside the button */
-  border-radius: 20%; /* Rounded corners */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
   transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
   overflow: hidden; /* Ensure content doesn't overflow */
 }
 
 .button:hover {
-  transform: scale(1.45); /* Enlarge the button on hover */
+  transform: scale(1.05); /* Enlarge the button on hover */
   background-color: #555; /* Change background color on hover */
 }
 
