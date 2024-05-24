@@ -1,0 +1,52 @@
+.home {
+  display: grid;
+  grid-template-columns: 50% 50%; /* Split the screen into two equal parts */
+  height: 100vh; /* Full viewport height */
+}
+
+.image {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  padding: 20px; /* Add some padding */
+  background-color: white; /* Dark background for contrast */
+  margin: 20% 10% 10% 10%; /* Separate from the top, bottom, and left sides */
+  padding: 2%; /* Add some padding */
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5); /* Add a drop shadow */
+}
+
+.image img {
+  max-width: 60%; /* Adjust image size */
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow to make it stand out */
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white; /* Slightly different shade for contrast */
+  gap: 20px; /* Add space between elements */
+  margin: 30% 10% 20% 0%; /* Separate from the top, bottom, and left sides */
+  padding: 2%; /* Add some padding */
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+.name, .aboutSection {  
+  display: flex;
+  align-items: center;
+  font-size: 1.5em; /* Adjust font size */
+  color: black; /* Light color for visibility */
+}
+
+.name {
+  font-weight: bold;
+  font-size: 2em; /* Increase font size for the name */
+}
+
+.aboutSection {
+  text-align: center; /* Align text to the left */
+  line-height: 1.5; /* Improve readability */
+}

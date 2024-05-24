@@ -1,0 +1,36 @@
+.projects {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  gap: 20px; /* Space between buttons */
+  padding: 2% 5% 5% 5%; /* Adjust the padding to add space at the top */
+  background-color: #333; /* Match the overall theme */
+}
+
+.button {
+  display: grid;
+  grid-template-columns: 30% 70%; /* Adjust the columns to 30% for the image and 70% for the text */
+  align-items: center; /* Center the content vertically */
+  color: white; /* Text color */
+  padding: 2%; /* Padding inside the button */
+  border-radius: 20%; /* Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.button:hover {
+  transform: scale(1.45); /* Enlarge the button on hover */
+  background-color: #555; /* Change background color on hover */
+}
+
+.button img {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px 0 0 10px; /* Round the left edges */
+}
+
+.button-text {
+  padding: 0 10px; /* Padding inside the text container */
+  font-size: 1em; /* Adjust font size */
+  text-align: left; /* Align text to the left */
+}

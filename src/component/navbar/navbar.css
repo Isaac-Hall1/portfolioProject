@@ -1,0 +1,30 @@
+.navElements {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  justify-content: center;
+  width: 50%;
+}
+
+.link {
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-weight: 700;
+  font-size: 700;
+}
+.link a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 1em; /* Adjust padding to make the buttons slimmer */
+  cursor: pointer;
+  background-color: #444;
+  border-radius: 25px; /* Make the button corners rounded */
+  transition: background-color 0.3s, color 0.3s;
+  max-width: 110px; /* Set a max-width to limit the button length */
+  width: 100%; /* Ensure the width is fully used within max-width constraints */
+  box-sizing: border-box;
+}
